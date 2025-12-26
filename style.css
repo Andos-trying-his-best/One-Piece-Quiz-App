@@ -1,0 +1,141 @@
+*{
+    font-family: 'Roboto';
+    font-size: 0.9rem;
+}
+.App{
+    justify-self: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    display: none;
+    align-items: center;
+}
+.Content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1.2rem;
+    width: 19rem;
+    padding: 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.356);
+}
+.ImageBox img{
+    max-width: 400px;
+    width: 100%;
+    border-radius: 0.6rem;
+}
+.quizresultsimageID img{
+    max-width: 400px;
+    width: 100%;
+    border-radius: 0.6rem;
+}
+body{
+    background-color: rgb(24, 23, 32);
+    margin: 3rem;
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.option1{
+    background-color: #f6f6f6;
+    border-radius: 0.5rem;
+    width: 100%;   
+    padding-block: 1.25rem; 
+    align-items: center;
+    justify-items: center;
+    color: rgb(54, 54, 54);
+    transition: 0.4s ease, 0.4s ease;
+    text-align: center;
+}
+.option2{
+    background-color: #f6f6f6;
+    border-radius: 0.5rem;
+    width: 100%;   
+    padding-block: 1.25rem; 
+    align-items: center;
+    justify-items: center;
+    color: rgb(54, 54, 54);
+    transition: 0.4s ease, 0.4s ease;
+    text-align: center;
+}
+.option3{
+    background-color: #f6f6f6;
+    border-radius: 0.5rem;
+    width: 100%;   
+    padding-block: 1.25rem; 
+    align-items: center;
+    justify-items: center;
+    color: rgb(54, 54, 54);
+    transition: 0.4s ease, 0.4s ease;
+    text-align: center;
+}
+.option3,.option2,.option1{
+    border: 1px solid #f6f6f6;
+}
+.option3:hover,.option2:hover,.option1:hover{
+    border: 1px solid #cacaca;
+}
+.Select{
+    background-color: #5e55d5;
+    border-radius: 0.5rem;
+    width: 100%;    
+    align-items: center;
+    justify-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    transition: 0.4s ease, 0.4s ease;
+}
+.Select:hover{
+    background-color: #7770d6;
+    transform: scale(1.02);
+}
+pm{
+    align-self: center;
+    font-weight: 400;
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.QuizResults p{
+    color: white;
+}
+.App #QuestionCounterID{
+    color: white;
+}
+
+.Begin{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.QuizResults{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.BeginButton{
+    background-color: #5e55d5;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    width: 100%;    
+    align-items: center;
+    justify-items: center;
+    color: rgb(255, 255, 255);
+    transition: 0.4s ease, 0.4s ease;
+    width: 15rem;
+    padding-block: 0.75rem;
+}
